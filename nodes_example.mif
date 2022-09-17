@@ -1,0 +1,25 @@
+Version   300
+Charset "WindowsLatin1"
+Delimiter ","
+CoordSys Earth Projection 8, 1000, "m", 9, 0, 1, 3500000, 0 Bounds (-4748143.32561, -10000855.7646) (11748143.3256, 10000855.7646)
+Columns 14
+  ID Integer
+  ORT Char(80)
+  WST Char(80)
+  KM Float
+  WST2 Char(80)
+  KM2 Float
+  WST3 Char(80)
+  KM3 Float
+  WST4 Char(80)
+  KM4 Float
+  GK_RECHTS Float
+  GK_HOCH Float
+  ART Char(4)
+  VERKEHRSZELLE Integer
+Data
+
+Point 3345822.04 5703998.35
+    Symbol (34,65280,9) 
+Point 3341652.33 5704349.05
+    Symbol (34,65280,9) 

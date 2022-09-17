@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:featureCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="http://ingenuine.de" xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2" xmlns:net="urn:x-inspire:specification:gmlas:Network:3.2" xmlns:tn="urn:x-inspire:specification:gmlas:CommonTransportElements:3.0" xmlns:tn-w="urn:x-inspire:specification:gmlas:WaterTransportNetwork:3.0" xmlns:gn="urn:x-inspire:specification:gmlas:GeographicalNames:3.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://ingenuine.de planco_INSPIREd.xsd" gml:id="BMVBS_PLANCO_uiINSPIREd_Net_2030">
+  
+  <gml:featureMember>
+    <tn-w:WaterwayNode xmlns:tn-w="urn:x-inspire:specification:gmlas:WaterTransportNetwork:3.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:net="urn:x-inspire:specification:gmlas:Network:3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2" xmlns:tn="urn:x-inspire:specification:gmlas:CommonTransportElements:3.0" gml:id="BMVBS.PNID308100001_node">
+      <net:beginLifespanVersion xsi:nil="true"/>
+      <net:inspireId>
+        <base:Identifier>
+          <base:localId>PNID308100001</base:localId>
+          <base:namespace>BMVBS</base:namespace>
+        </base:Identifier>
+      </net:inspireId>
+      <net:inNetwork xsi:nil="true"/>
+      <net:geometry>
+        <gml:Point gml:id="BMVBS.PNID308100001_geo">
+          <gml:coordinates>345864.8849706311,5702302.686649343</gml:coordinates>
+        </gml:Point>
+      </net:geometry>
+      <tn:validFrom xsi:nil="true"/>
+      <tn-w:formOfWaterwayNode xsi:nil="true"/>
+    </tn-w:WaterwayNode>
+  </gml:featureMember>
+  
+  <gml:featureMember>
+    <ui:PLANCONodeAttrs xmlns:ui="http://ingenuine.de" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:net="urn:x-inspire:specification:gmlas:Network:3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tn="urn:x-inspire:specification:gmlas:CommonTransportElements:3.0" gml:id="BMVBS.PNID308100001_attr">
+      <net:networkRef>
+        <net:NetworkReference>
+          <net:element xlink:href="#BMVBS.PNID308100001_node"/>
+        </net:NetworkReference>
+      </net:networkRef>
+      <net:beginLifespanVersion xsi:nil="true"/>
+      <tn:validFrom xsi:nil="true"/>
+      <tn:validTo xsi:nil="true"/>
+      <ui:ID>308100001</ui:ID>
+      <ui:ORT>VP Rhein-Herne-Kanal / Ruhr</ui:ORT>
+      <ui:WST>Rhein-Herne-Kanal</ui:WST>
+      <ui:KM>0</ui:KM>
+      <ui:WST2>Ruhr</ui:WST2>
+      <ui:KM2>5.16</ui:KM2>
+      <ui:WST3></ui:WST3>
+      <ui:KM3>-1</ui:KM3>
+      <ui:WST4></ui:WST4>
+      <ui:KM4>-1</ui:KM4>
+      <ui:GK_RECHTS>3345822.04</ui:GK_RECHTS>
+      <ui:GK_HOCH>5703998.35</ui:GK_HOCH>
+      <ui:ART>VP</ui:ART>
+      <ui:VERKEHRSZELLE>5112</ui:VERKEHRSZELLE>
+    </ui:PLANCONodeAttrs>
+  </gml:featureMember>
+  
+  <gml:featureMember>
+    <tn-w:WaterwayNode xmlns:tn-w="urn:x-inspire:specification:gmlas:WaterTransportNetwork:3.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:net="urn:x-inspire:specification:gmlas:Network:3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2" xmlns:tn="urn:x-inspire:specification:gmlas:CommonTransportElements:3.0" gml:id="BMVBS.PNID308100002_node">
+      <net:beginLifespanVersion xsi:nil="true"/>
+      <net:inspireId>
+        <base:Identifier>
+          <base:localId>PNID308100002</base:localId>
+          <base:namespace>BMVBS</base:namespace>
+        </base:Identifier>
+      </net:inspireId>
+      <net:inNetwork xsi:nil="true"/>
+      <net:geometry>
+        <gml:Point gml:id="BMVBS.PNID308100002_geo">
+          <gml:coordinates>341696.33364276111,5702653.2874465389</gml:coordinates>
+        </gml:Point>
+      </net:geometry>
+      <tn:validFrom xsi:nil="true"/>
+      <tn-w:formOfWaterwayNode xsi:nil="true"/>
+    </tn-w:WaterwayNode>
+  </gml:featureMember>
+  
+  <gml:featureMember>
+    <ui:PLANCONodeAttrs xmlns:ui="http://ingenuine.de" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:net="urn:x-inspire:specification:gmlas:Network:3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tn="urn:x-inspire:specification:gmlas:CommonTransportElements:3.0" gml:id="BMVBS.PNID308100002_attr">
+      <net:networkRef>
+        <net:NetworkReference>
+          <net:element xlink:href="#BMVBS.PNID308100002_node"/>
+        </net:NetworkReference>
+      </net:networkRef>
+      <net:beginLifespanVersion xsi:nil="true"/>
+      <tn:validFrom xsi:nil="true"/>
+      <tn:validTo xsi:nil="true"/>
+      <ui:ID>308100002</ui:ID>
+      <ui:ORT>VP Ruhr / Rhein</ui:ORT>
+      <ui:WST>Rhein</ui:WST>
+      <ui:KM>780.14</ui:KM>
+      <ui:WST2>Ruhr</ui:WST2>
+      <ui:KM2>0</ui:KM2>
+      <ui:WST3></ui:WST3>
+      <ui:KM3>-1</ui:KM3>
+      <ui:WST4></ui:WST4>
+      <ui:KM4>-1</ui:KM4>
+      <ui:GK_RECHTS>3341652.33</ui:GK_RECHTS>
+      <ui:GK_HOCH>5704349.05</ui:GK_HOCH>
+      <ui:ART>VP</ui:ART>
+      <ui:VERKEHRSZELLE>5112</ui:VERKEHRSZELLE>
+    </ui:PLANCONodeAttrs>
+  </gml:featureMember>
+  
+  <gml:featureMember>
+    <tn-w:WaterwayLink xmlns:tn-w="urn:x-inspire:specification:gmlas:WaterTransportNetwork:3.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:net="urn:x-inspire:specification:gmlas:Network:3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tn="urn:x-inspire:specification:gmlas:CommonTransportElements:3.0" xmlns:gn="urn:x-inspire:specification:gmlas:GeographicalNames:3.0" gml:id="BMVBS.PLID1_link">
+      <net:beginLifespanVersion xsi:nil="true"/>
+      <net:inspireId>
+        <base:Identifier>
+          <base:localId>PLID1</base:localId>
+          <base:namespace>BMVBS</base:namespace>
+        </base:Identifier>
+      </net:inspireId>
+      <net:inNetwork xsi:nil="true"/>
+      <net:centrelineGeometry>
+        <gml:LineString gml:id="BMVBS.PLID1_geo">
+          <gml:coordinates>345864.8849706311,5702302.686649343 345142.17591691489,5702090.9073521802 344685.82280625281,5701949.008019031 344265.52966154588,5701850.5562594226 343951.49696374184,5701815.6463129604 343652.38011177542,5701813.6969422419 343428.67230646312,5701776.0577543238 342889.52220611589,5701659.1213077391 342635.52278595802,5701767.1404952221 342236.31372414506,5701901.922068961 341989.58222659165,5702243.4845038988 341696.33364276111,5702653.2874465389</gml:coordinates>
+        </gml:LineString>
+      </net:centrelineGeometry>
+      <net:fictitious>false</net:fictitious>
+      <net:endNode xlink:href="#BMVBS.PNID308100002_node"/>
+      <net:startNode xlink:href="#BMVBS.PNID308100001_node"/>
+      <tn:geographicalName xsi:nil="false">
+        <gn:GeographicalName>
+          <gn:language>ger</gn:language>
+          <gn:nativeness/>
+          <gn:nameStatus/>
+          <gn:sourceOfName/>
+          <gn:pronunciation>
+            <gn:PronunciationOfName/>
+          </gn:pronunciation>
+          <gn:spelling>
+            <gn:SpellingOfName>
+              <gn:text>Ruhr</gn:text>
+              <gn:script/>
+            </gn:SpellingOfName>
+          </gn:spelling>
+        </gn:GeographicalName>
+      </tn:geographicalName>
+      <tn:validFrom xsi:nil="true"/>
+    </tn-w:WaterwayLink>
+  </gml:featureMember>
+  
+  <gml:featureMember>
+    <ui:PLANCOLinkAttrs xmlns:ui="http://ingenuine.de" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:net="urn:x-inspire:specification:gmlas:Network:3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tn="urn:x-inspire:specification:gmlas:CommonTransportElements:3.0" gml:id="BMVBS.PLID1_attr">
+      <net:networkRef>
+        <net:NetworkReference>
+          <net:element xlink:href="#BMVBS.PLID1_link"/>
+        </net:NetworkReference>
+      </net:networkRef>
+      <net:beginLifespanVersion xsi:nil="true"/>
+      <tn:validFrom xsi:nil="true"/>
+      <tn:validTo xsi:nil="true"/>
+      <ui:ID>1</ui:ID>
+      <ui:WST>Ruhr</ui:WST>
+      <ui:VON_KNOTEN>308100001</ui:VON_KNOTEN>
+      <ui:VON_KM>5.16</ui:VON_KM>
+      <ui:VON_ORT>VP Rhein-Herne-Kanal / Ruhr</ui:VON_ORT>
+      <ui:BIS_KNOTEN>308100002</ui:BIS_KNOTEN>
+      <ui:BIS_KM>0</ui:BIS_KM>
+      <ui:BIS_ORT>VP Ruhr / Rhein</ui:BIS_ORT>
+      <ui:LAENGE>5.16</ui:LAENGE>
+      <ui:ART>F</ui:ART>
+      <ui:SCHLEUSEN>1</ui:SCHLEUSEN>
+      <ui:V_TAL>10</ui:V_TAL>
+      <ui:V_BERG>10</ui:V_BERG>
+      <ui:PEGEL></ui:PEGEL>
+      <ui:ABL_TIEFE>3</ui:ABL_TIEFE>
+      <ui:F_TIEFE>0</ui:F_TIEFE>
+      <ui:CO_LAGEN>2</ui:CO_LAGEN>
+      <ui:B_HOEHE>6.5</ui:B_HOEHE>
+      <ui:ECMT>5.2</ui:ECMT>
+      <ui:E_LMAX>135</ui:E_LMAX>
+      <ui:V_LMAX>186.5</ui:V_LMAX>
+      <ui:E_BMAX>12</ui:E_BMAX>
+      <ui:V_BMAX>12</ui:V_BMAX>
+      <ui:MAX_EF_NR>9</ui:MAX_EF_NR>
+      <ui:MAX_SL_NR>9</ui:MAX_SL_NR>
+    </ui:PLANCOLinkAttrs>
+  </gml:featureMember>
+</ui:featureCollection>

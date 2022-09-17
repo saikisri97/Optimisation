@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <row>
+    <index>0</index>
+    <ID>308100001</ID>
+    <ORT>VP Rhein-Herne-Kanal / Ruhr</ORT>
+    <WST>Rhein-Herne-Kanal</WST>
+    <KM>0.0</KM>
+    <WST2>Ruhr</WST2>
+    <KM2>5.16</KM2>
+    <WST3/>
+    <KM3>-1.0</KM3>
+    <WST4/>
+    <KM4>-1.0</KM4>
+    <GK_RECHTS>3345822.04</GK_RECHTS>
+    <GK_HOCH>5703998.35</GK_HOCH>
+    <ART>VP</ART>
+    <VERKEHRSZELLE>5112</VERKEHRSZELLE>
+    <geometry>POINT (3345822.04 5703998.35)</geometry>
+  </row>
+  <row>
+    <index>1</index>
+    <ID>308100002</ID>
+    <ORT>VP Ruhr / Rhein</ORT>
+    <WST>Rhein</WST>
+    <KM>780.14</KM>
+    <WST2>Ruhr</WST2>
+    <KM2>0.0</KM2>
+    <WST3/>
+    <KM3>-1.0</KM3>
+    <WST4/>
+    <KM4>-1.0</KM4>
+    <GK_RECHTS>3341652.33</GK_RECHTS>
+    <GK_HOCH>5704349.05</GK_HOCH>
+    <ART>VP</ART>
+    <VERKEHRSZELLE>5112</VERKEHRSZELLE>
+    <geometry>POINT (3341652.33 5704349.05)</geometry>
+  </row>
+</data>
