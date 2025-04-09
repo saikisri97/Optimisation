@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='utf-8'?>
+<quiz>
+  <question type="multichoice">
+    <name><text>What is the primary objective of K-Means clustering?</text></name>
+    <questiontext format="moodle_auto_format">
+      <text>What is the primary objective of K-Means clustering?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format"><text /></generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Group data points with labels</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Minimize inter-cluster distance</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Maximize total variance</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Minimize within-cluster variance</text>
+      <feedback format="moodle_auto_format"><text>Correct: K-Means minimizes the sum of squared distances within each cluster.</text></feedback>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>In logistics, which of the following is a common clustering feature?</text></name>
+    <questiontext format="moodle_auto_format">
+      <text>In logistics, which of the following is a common clustering feature?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format"><text /></generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Customer birthday</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Pickup frequency</text>
+      <feedback format="moodle_auto_format"><text>Correct: Pickup frequency is directly tied to service scheduling.</text></feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Invoice number</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Driver license</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>What challenge does the “Elbow Method” help with?</text></name>
+    <questiontext format="moodle_auto_format">
+      <text>What challenge does the “Elbow Method” help with?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format"><text /></generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Choosing distance metric</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Finding outliers</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Determining number of clusters</text>
+      <feedback format="moodle_auto_format"><text>Correct: The elbow method helps find optimal K.</text></feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Scaling features</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>Why is standardization important in clustering?</text></name>
+    <questiontext format="moodle_auto_format">
+      <text>Why is standardization important in clustering?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format"><text /></generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>For faster loading</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>To give equal weight to features</text>
+      <feedback format="moodle_auto_format"><text>Correct: Standardizing avoids dominance of high-scale features.</text></feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>For database integration</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>To avoid missing values</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+  </question>
+</quiz>
