@@ -1,5 +1,0 @@
-Question,Option 1,Option 2,Option 3,Option 4,Correct Option,Explanation
-Which of the following is the most suitable use case for linear regression in supply chain?,Predicting if a shipment will be delayed,Classifying defective items on a line,Forecasting sales quantity for next week,Grouping stores by performance,3,Linear regression predicts continuous outcomes like sales.
-What does a negative coefficient for Fuel_Price suggest?,Fuel_Price is unrelated to sales,Sales increase with rising fuel prices,Sales decrease as fuel prices go up,There is a data error,3,Negative coefficients indicate inverse relationships.
-Why is regularization important in regression models?,It increases model complexity,It reduces computation time,It prevents overfitting by penalizing large coefficients,It increases training data,3,Regularization controls overfitting.
-What is the error term (ε) in a regression equation?,A model coefficient,The difference between actual and predicted values,The predicted outcome,A feature variable,2,The error term captures unexplained variance.
