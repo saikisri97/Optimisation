@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='utf-8'?>
+<quiz>
+  <question type="multichoice">
+    <name><text>What is the main purpose of PCA in warehouse sensor data?</text></name>
+    <questiontext format="moodle_auto_format">
+      <text>What is the main purpose of PCA in warehouse sensor data?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format"><text /></generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>To label different operational shifts</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>To cluster warehouses by region</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>To reduce dimensionality while preserving variance</text>
+      <feedback format="moodle_auto_format"><text>Correct: PCA transforms high-dimensional sensor data into fewer, variance-rich components for analysis.</text></feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>To predict future stock levels</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>What does a loading in PCA represent?</text></name>
+    <questiontext format="moodle_auto_format">
+      <text>What does a loading in PCA represent?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format"><text /></generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>The forecasted sensor value</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>The contribution of a feature to a principal component</text>
+      <feedback format="moodle_auto_format"><text>Correct: A loading shows how much each original variable influences a given principal component.</text></feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>The number of clusters found</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>The variance of the original dataset</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>How are PCA and K-Means clustering different in purpose?</text></name>
+    <questiontext format="moodle_auto_format">
+      <text>How are PCA and K-Means clustering different in purpose?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format"><text /></generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Both group data based on density</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>PCA reduces features; K-Means groups records</text>
+      <feedback format="moodle_auto_format"><text>Correct: PCA compresses features; K-Means finds structure across observations.</text></feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>K-Means explains variance; PCA predicts classes</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>PCA is for classification; K-Means is for prediction</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>Why is PCA helpful before anomaly detection in logistics?</text></name>
+    <questiontext format="moodle_auto_format">
+      <text>Why is PCA helpful before anomaly detection in logistics?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format"><text /></generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>It hides outliers</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>It simplifies noisy sensor data to key patterns</text>
+      <feedback format="moodle_auto_format"><text>Correct: PCA reveals dominant variance directions, making anomalies easier to spot.</text></feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>It creates artificial labels</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>It converts time series into clusters</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+  </question>
+</quiz>
