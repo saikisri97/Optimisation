@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='utf-8'?>
+<quiz>
+  <question type="multichoice">
+    <name><text>Which prompt type is best suited for diagnosing the reason behind a customs delay using scan timestamps and routing logs?</text></name>
+    <questiontext format="moodle_auto_format">
+      <text>Which prompt type is best suited for diagnosing the reason behind a customs delay using scan timestamps and routing logs?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format"><text /></generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Zero-shot prompting</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Few-shot prompting</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Chain-of-thought prompting</text>
+      <feedback format="moodle_auto_format"><text>Correct! This encourages step-by-step reasoning for analyzing event-based delays.</text></feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Manual re-prompting</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>A DHL bot is given 3 examples of document-related questions and their ideal answers before being asked a new question. What technique is this?</text></name>
+    <questiontext format="moodle_auto_format">
+      <text>A DHL bot is given 3 examples of document-related questions and their ideal answers before being asked a new question. What technique is this?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format"><text /></generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Feedback loop</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Few-shot prompting</text>
+      <feedback format="moodle_auto_format"><text>Correct! This approach teaches the model with examples before the actual task.</text></feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Role-playing</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Iterative refinement</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>Which prompt strategy helps tailor the AI's depth and language based on the difficulty of a logistics query?</text></name>
+    <questiontext format="moodle_auto_format">
+      <text>Which prompt strategy helps tailor the AI's depth and language based on the difficulty of a logistics query?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format"><text /></generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Role-playing</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Prompt chaining</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Zero-shot prompting</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Complexity-based prompting</text>
+      <feedback format="moodle_auto_format"><text>Correct! This approach adjusts style based on the complexity of the user's query.</text></feedback>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>“You are a FedEx customs clearance expert. Answer as if advising a junior agent.” What type of prompting is being used here?</text></name>
+    <questiontext format="moodle_auto_format">
+      <text>“You are a FedEx customs clearance expert. Answer as if advising a junior agent.” What type of prompting is being used here?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format"><text /></generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Iterative refinement</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Role-playing</text>
+      <feedback format="moodle_auto_format"><text>Correct! Role-playing prompts ask the model to adopt a specific persona.</text></feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Tree-of-thought</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Command templating</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+  </question>
+</quiz>
