@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='utf-8'?>
+<quiz>
+  <question type="multichoice">
+    <name><text>What is the main goal of the robot in the warehouse grid simulation?</text></name>
+    <questiontext format="moodle_auto_format">
+      <text>What is the main goal of the robot in the warehouse grid simulation?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format"><text /></generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>To explore the grid as much as possible</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>To reach the goal cell in the fewest steps</text>
+      <feedback format="moodle_auto_format"><text>Correct: The robot learns to maximize cumulative reward, which is highest when it reaches the goal efficiently.</text></feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>To memorize every path in the grid</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>To avoid learning from mistakes</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>How does the robot decide which action to take at each step during learning?</text></name>
+    <questiontext format="moodle_auto_format">
+      <text>How does the robot decide which action to take at each step during learning?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format"><text /></generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>It always chooses a random direction</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>It asks the user for the next move</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>It follows the best Q-value or explores randomly</text>
+      <feedback format="moodle_auto_format"><text>Correct: The epsilon-greedy policy helps balance exploration (random moves) and exploitation (choosing highest Q-value).</text></feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>It follows the shortest path encoded by rules</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>What does a Q-value represent in this simulation?</text></name>
+    <questiontext format="moodle_auto_format">
+      <text>What does a Q-value represent in this simulation?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format"><text /></generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>The probability of reaching the goal</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>The distance from the goal</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>The expected reward for a given action in a state</text>
+      <feedback format="moodle_auto_format"><text>Correct: Q-values estimate how beneficial a particular action is from a specific position, based on future expected rewards.</text></feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>The total number of steps taken so far</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>Why does the robot initially perform poorly but improve over episodes?</text></name>
+    <questiontext format="moodle_auto_format">
+      <text>Why does the robot initially perform poorly but improve over episodes?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format"><text /></generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>It gradually memorizes the correct moves</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>The environment becomes easier</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>It receives direct instructions from the user</text>
+      <feedback format="moodle_auto_format"><text>Try again.</text></feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>It learns by updating Q-values based on experience</text>
+      <feedback format="moodle_auto_format"><text>Correct: Through trial and error, the agent refines its policy using the Q-learning update rule, leading to better decisions over time.</text></feedback>
+    </answer>
+  </question>
+</quiz>
