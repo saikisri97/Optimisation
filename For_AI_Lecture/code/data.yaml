@@ -1,7 +1,0 @@
-train: https://raw.githubusercontent.com/saikisri97/Optimisation/master/For_AI_Lecture/data/Parcels-with-Defect-1/train/images
-val: https://raw.githubusercontent.com/saikisri97/Optimisation/master/For_AI_Lecture/data/Parcels-with-Defect-1/valid/images
-test: https://raw.githubusercontent.com/saikisri97/Optimisation/master/For_AI_Lecture/data/Parcels-with-Defect-1/test/images
-
-names: 
-  0: defect parcel
-  1: no defect parcel
