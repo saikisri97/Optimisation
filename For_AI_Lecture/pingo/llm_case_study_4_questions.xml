@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<quiz>
+  <question type="multichoice">
+    <name><text>LLMs vs traditional tools in planning</text></name>
+    <questiontext format="moodle_auto_format">
+      <text>What is a major advantage of using LLMs in supply chain planning compared to traditional tools?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format"><text /></generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="moodle_auto_format"><text>LLMs eliminate the need for mathematical models entirely</text><feedback format="moodle_auto_format"><text>Try again.</text></feedback></answer>
+    <answer fraction="0" format="moodle_auto_format"><text>LLMs provide instant decisions without requiring any user input</text><feedback format="moodle_auto_format"><text>Try again.</text></feedback></answer>
+    <answer fraction="100" format="moodle_auto_format"><text>LLMs enable planners to ask natural language questions and receive interpretable answers</text><feedback format="moodle_auto_format"><text>Correct!</text></feedback></answer>
+    <answer fraction="0" format="moodle_auto_format"><text>LLMs always reduce costs more than traditional AI models</text><feedback format="moodle_auto_format"><text>Try again.</text></feedback></answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>LLMs in Microsoft's demand-drift analysis</text></name>
+    <questiontext format="moodle_auto_format">
+      <text>In Microsoft's server fulfillment planning, how did LLMs improve the demand-drift analysis process?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format"><text /></generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="moodle_auto_format"><text>By replacing the planners with automation in all decision-making</text><feedback format="moodle_auto_format"><text>Try again.</text></feedback></answer>
+    <answer fraction="0" format="moodle_auto_format"><text>By creating procurement contracts directly</text><feedback format="moodle_auto_format"><text>Try again.</text></feedback></answer>
+    <answer fraction="100" format="moodle_auto_format"><text>By generating instant summaries of changes, reasons, and potential errors</text><feedback format="moodle_auto_format"><text>Correct!</text></feedback></answer>
+    <answer fraction="0" format="moodle_auto_format"><text>By predicting customer churn with machine learning</text><feedback format="moodle_auto_format"><text>Try again.</text></feedback></answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>Barrier to LLM adoption per Dell</text></name>
+    <questiontext format="moodle_auto_format">
+      <text>What is a key barrier to successful LLM adoption in supply chains, as noted by Dell Technologies?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format"><text /></generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="moodle_auto_format"><text>Insufficient data</text><feedback format="moodle_auto_format"><text>Try again.</text></feedback></answer>
+    <answer fraction="0" format="moodle_auto_format"><text>LLMs require expensive quantum hardware</text><feedback format="moodle_auto_format"><text>Try again.</text></feedback></answer>
+    <answer fraction="100" format="moodle_auto_format"><text>Training people to ask the right questions of LLMs is more difficult than the technology itself</text><feedback format="moodle_auto_format"><text>Correct!</text></feedback></answer>
+    <answer fraction="0" format="moodle_auto_format"><text>Suppliers don’t share data with AI models</text><feedback format="moodle_auto_format"><text>Try again.</text></feedback></answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>Why not let LLMs fully build optimization models?</text></name>
+    <questiontext format="moodle_auto_format">
+      <text>Why does the article caution against letting LLMs build optimization models entirely from scratch today?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format"><text /></generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="moodle_auto_format"><text>They are too slow for modern planning cycles</text><feedback format="moodle_auto_format"><text>Try again.</text></feedback></answer>
+    <answer fraction="0" format="moodle_auto_format"><text>LLMs can’t handle structured input</text><feedback format="moodle_auto_format"><text>Try again.</text></feedback></answer>
+    <answer fraction="100" format="moodle_auto_format"><text>It’s hard to validate the accuracy and execution speed of complex AI-generated models</text><feedback format="moodle_auto_format"><text>Correct!</text></feedback></answer>
+    <answer fraction="0" format="moodle_auto_format"><text>They do not work with supply chain data</text><feedback format="moodle_auto_format"><text>Try again.</text></feedback></answer>
+  </question>
+</quiz>
