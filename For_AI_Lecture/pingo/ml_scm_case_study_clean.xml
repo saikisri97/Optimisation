@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='utf-8'?>
+<quiz>
+  <question type="category">
+    <category>
+      <text>AI_ML_Topics/ML in Supply Chain Case Study</text>
+    </category>
+  </question>
+
+  <question type="multichoice">
+    <name><text>Core flaw of predict-then-optimize (PTO) in supply chain planning</text></name>
+    <questiontext format="moodle_auto_format">
+      <text>What is a core flaw of the traditional "predict-then-optimize" (PTO) approach to supply chain planning?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format"><text/></generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0"><text>It requires too much data to function properly</text><feedback><text>Try again.</text></feedback></answer>
+    <answer fraction="0"><text>It makes decisions based solely on average cost</text><feedback><text>Try again.</text></feedback></answer>
+    <answer fraction="100"><text>It depends on forecasts that are often misaligned across stakeholders</text><feedback><text>Correct!</text></feedback></answer>
+    <answer fraction="0"><text>It ignores customer-level demand patterns</text><feedback><text>Try again.</text></feedback></answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>OML inventory improvement</text></name>
+    <questiontext format="moodle_auto_format">
+      <text>In the case study of the semiconductor equipment company, how did Optimal Machine Learning (OML) improve inventory performance?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format"><text/></generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0"><text>It fully eliminated the need for inventory</text><feedback><text>Try again.</text></feedback></answer>
+    <answer fraction="100"><text>It increased fill rates while reducing inventory investment</text><feedback><text>Correct!</text></feedback></answer>
+    <answer fraction="0"><text>It replaced all human decision-making with automation</text><feedback><text>Try again.</text></feedback></answer>
+    <answer fraction="0"><text>It decreased product availability to control costs</text><feedback><text>Try again.</text></feedback></answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>Scenario planning shortfalls</text></name>
+    <questiontext format="moodle_auto_format">
+      <text>Why do conventional scenario planning efforts often fall short in supply chains?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format"><text/></generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0"><text>They ignore cost data from suppliers</text><feedback><text>Try again.</text></feedback></answer>
+    <answer fraction="0"><text>They focus only on profitability metrics</text><feedback><text>Try again.</text></feedback></answer>
+    <answer fraction="100"><text>They lack the granularity to assess product, customer, and regional impacts</text><feedback><text>Correct!</text></feedback></answer>
+    <answer fraction="0"><text>They are based on real-time IoT data</text><feedback><text>Try again.</text></feedback></answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>OML digital twin feature</text></name>
+    <questiontext format="moodle_auto_format">
+      <text>What key feature of the digital twin in OML enhances stakeholder trust and buy-in?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format"><text/></generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0"><text>Ability to control all external supplier behavior</text><feedback><text>Try again.</text></feedback></answer>
+    <answer fraction="0"><text>Black-box model that hides internal logic</text><feedback><text>Try again.</text></feedback></answer>
+    <answer fraction="100"><text>Visualization of historical decision impacts vs. actual results</text><feedback><text>Correct!</text></feedback></answer>
+    <answer fraction="0"><text>Randomized forecasting for scenario diversity</text><feedback><text>Try again.</text></feedback></answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>Org change for OML success</text></name>
+    <questiontext format="moodle_auto_format">
+      <text>What organizational change is critical to successfully implementing OML?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format"><text/></generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0"><text>Outsourcing planning to third-party vendors</text><feedback><text>Try again.</text></feedback></answer>
+    <answer fraction="0"><text>Replacing all ERP systems with neural networks</text><feedback><text>Try again.</text></feedback></answer>
+    <answer fraction="100"><text>Redesigning the S&OP process for faster cycles and broader participation</text><feedback><text>Correct!</text></feedback></answer>
+    <answer fraction="0"><text>Only using data scientists to define inventory policies</text><feedback><text>Try again.</text></feedback></answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>Risk of ML-only planning</text></name>
+    <questiontext format="moodle_auto_format">
+      <text>What is a key organizational risk when companies delegate ML-based supply chain planning solely to data scientists?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format"><text/></generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0"><text>Data scientists often prioritize speed over accuracy</text><feedback><text>Try again.</text></feedback></answer>
+    <answer fraction="0"><text>Supply chain complexity leads to overfitting in ML models</text><feedback><text>Try again.</text></feedback></answer>
+    <answer fraction="100"><text>Data scientists may lack domain knowledge critical for capturing planning constraints</text><feedback><text>Correct!</text></feedback></answer>
+    <answer fraction="0"><text>ML models become expensive to maintain without IT involvement</text><feedback><text>Try again.</text></feedback></answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>ML adoption blocker</text></name>
+    <questiontext format="moodle_auto_format">
+      <text>Which factor most significantly hinders the real-time adoption of ML-driven decisions in supply chain operations?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format"><text/></generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0"><text>Inadequate cloud infrastructure</text><feedback><text>Try again.</text></feedback></answer>
+    <answer fraction="100"><text>Lack of trust in black-box model recommendations among stakeholders</text><feedback><text>Correct!</text></feedback></answer>
+    <answer fraction="0"><text>Poor historical sales data quality</text><feedback><text>Try again.</text></feedback></answer>
+    <answer fraction="0"><text>Model latency during computation</text><feedback><text>Try again.</text></feedback></answer>
+  </question>
+</quiz>
