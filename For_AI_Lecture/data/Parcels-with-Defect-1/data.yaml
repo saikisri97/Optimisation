@@ -1,7 +1,5 @@
-train: /content/Optimisation/For_AI_Lecture/data/Parcels-with-Defect-1/train/images
-val: /content/Optimisation/For_AI_Lecture/data/Parcels-with-Defect-1/valid/images
-test: /content/Optimisation/For_AI_Lecture/data/Parcels-with-Defect-1/test/images
-
-names: 
-  0: defect parcel
-  1: no defect parcel
+train: /Users/gollapsi/Documents/08_For_Roland_SG/Optimisation/For_AI_Lecture/data/Parcels-with-Defect-1/train/images
+val: /Users/gollapsi/Documents/08_For_Roland_SG/Optimisation/For_AI_Lecture/data/Parcels-with-Defect-1/valid/images
+test: /Users/gollapsi/Documents/08_For_Roland_SG/Optimisation/For_AI_Lecture/data/Parcels-with-Defect-1/test/images
+nc: 2
+names: ['defect parcel', 'no defect parcel']

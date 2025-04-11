@@ -1,0 +1,15 @@
+artifact_uri: /Users/gollapsi/Documents/08_For_Roland_SG/Optimisation/runs/mlflow/643585201796141938/e621a37ea0b74ae8b9d78b40778d992c/artifacts
+end_time: 1744379536068
+entry_point_name: ''
+experiment_id: '643585201796141938'
+lifecycle_stage: active
+run_id: e621a37ea0b74ae8b9d78b40778d992c
+run_name: parcel_defect_mac
+run_uuid: e621a37ea0b74ae8b9d78b40778d992c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744378193357
+status: 3
+tags: []
+user_id: gollapsi
